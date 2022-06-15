@@ -1,69 +1,78 @@
-body{
-
+body {
     background-color: #fffbf7;
-
-}
-
-h1{
-
-color: #4ea5ac;
-text-align: center;
-}
-
-p{
+  }
+  
+  h1 {
+    color: #025157;
+    text-align: center;
+  }
+  
+  p {
     color: #8b8b8bcc;
     font-family: Verdana;
     font-size: 20px;
-
-}
-
-button{
-
-    color: #000;
+  }
+  
+  button {
+    color: #fff;
     background-color: #025157;
-
-}
-.list {
-display: inline-block;
-
-}
-
-.header{
-    margin-top: 40px;
+  }
+  
+  .header {
+    /* margin-top: 40px;
     margin-left: 20px;
-    margin-right: 20px;
-
-
-}
-.header>*{
+    margin-right: 20px; */
+    margin: 40px 20px 0;
+    font-size: 0;
+  }
+  
+  li {
+    display: inline;
+    font-family: 'Alegreya', serif;
+    margin: 0 25px;
+  }
+  
+  .header > * {
     display: inline-block;
     font-size: 16px;
     line-height: 45px;
     height: 100%;
     vertical-align: middle;
-    margin: 40px 20px 0;
-  font-size: 0;
-}
-.logo{
+  }
+  
+  .logo {
     width: 15%;
-}
-.logo > img {
+  }
+  
+  .logo > img {
     width: 15%;
-}
-.navbar{
+  }
+  
+  .navbar {
     width: 70%;
-    text-align: center;
+    text-align: left;
     color: #025157;
     font-weight: 500;
-}
-.actions{
+  }
+  
+  .actions {
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
-
-}
-.main {
+  }
+  .actions > a {
+color: #67b54b;
+  }
+  .actions > button{
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Fascinate', cursive;
+  }
+  
+  .main {
     margin-top: 140px;
     text-align: center;
   }
