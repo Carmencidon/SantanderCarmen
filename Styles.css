@@ -76,3 +76,9 @@ color: #67b54b;
     margin-top: 140px;
     text-align: center;
   }
+  .ola{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    margin: 100px;
+    }
