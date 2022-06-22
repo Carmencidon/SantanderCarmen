@@ -143,8 +143,18 @@ iframe {
   margin-top: 10px;
 }
 
-.features {
-display: ;
-grid-template-columns: 1fr 1fr;
+#box1{
+background-color: #cdb1d2;
+align: center;
+}
+#box2{
+  background-color: #edc3a7;
+  
+  }
+.features  {
+display: grid;
+grid-template: repeat(2, 1fr)/repeat(2,1fr);
+height: 300px;
 
 }
+
